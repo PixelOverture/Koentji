@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Navigation from './Navigation'
+import Navigation from '../Navigation'
 
 export default function Hero() {
   return (
