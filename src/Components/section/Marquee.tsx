@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Marquee = () => {
   const marqueeVariants = {
     animate: {
-      x: [0, -window.innerWidth],
+      x: [0, -1366],
       transition: {
         x: {
           repeat: Infinity,
@@ -18,7 +18,7 @@ const Marquee = () => {
   }
 
   return (
-    <div className="marquee bg-[#4F6A7D] text-white flex items-center px-20 h-[130px]">
+    <div className="marquee bg-[#4F6A7D] text-white flex items-center h-[130px]">
       <motion.div
         className="track"
         variants={marqueeVariants}

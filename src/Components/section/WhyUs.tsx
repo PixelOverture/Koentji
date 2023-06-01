@@ -30,7 +30,7 @@ export default function WhyUs() {
         </div>
       </div>
       
-      <div className="px-20 -mt-40 relative">
+      <div className="px-20 -mt-40 relative z-10">
         <div className="grid grid-cols-3 shadow-xl">
           <div className="p-10 flex flex-col gap-6 bg-[#4F6A7D] text-white">
             <Image
@@ -117,7 +117,7 @@ export default function WhyUs() {
         </div>
       </div>
 
-      <div className="w-full relative -z-50 -mt-10">
+      <div className="w-full relative -mt-10">
         <Image
           src="/bgImage2.jpg"
           alt="Image of a building"
@@ -130,7 +130,7 @@ export default function WhyUs() {
           <p className="px-20 font-bold text-2xl text-white">Services</p>
 
           <div className="px-20 grid grid-cols-5 text-white mt-8">
-            <p className="font-bold text-5xl col-span-3 leading-tight">
+            <p className="font-bold text-5xl col-span-3 leading-tight max-w-xl">
               Elevate your marketing strategy with us.
             </p>
 
