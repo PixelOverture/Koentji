@@ -12,6 +12,16 @@ export default function Hero() {
         className="object-cover bg-no-repeat w-full h-auto -z-10"
       />
 
+      <div className="absolute top-0 left-0 h-full flex items-center">
+        <Image
+          src="/koentjiLargeLogo.svg"
+          alt="Koentji"
+          width={580}
+          height={580}
+          className="w-auto h-auto"
+        />
+      </div>
+
       <Navigation />
 
       <div className="absolute top-0 left-0 h-full flex flex-col justify-center text-white px-20 gap-8 max-w-5xl">
