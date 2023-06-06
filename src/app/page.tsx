@@ -1,5 +1,3 @@
-'use client'
-
 import About from '@/Components/section/About'
 import Footer from '@/Components/section/Footer'
 import Hero from '@/Components/section/Hero'
